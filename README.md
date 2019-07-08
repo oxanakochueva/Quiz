@@ -1,4 +1,4 @@
-# quiz app
+
 <h1>Setting up the project</h1>
 <p># install dependencies</p>
 <p>npm install</p>
