@@ -1,5 +1,5 @@
 <template>
-<f7-page>
+<f7-page class="home">
   <!-- карточки -->
   <f7-block-header class="welcome">Welcome to gallery of failed attempts
     <p>I tried to do everything and I didn't do anything sensible.</p>
@@ -51,7 +51,7 @@
 
 <style>
 
-  .list ul {
+  .home .list ul {
     width: 70vw;
     margin: 0 auto;
   }

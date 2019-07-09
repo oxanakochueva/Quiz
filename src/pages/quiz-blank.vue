@@ -33,12 +33,12 @@
 </template>
 
 <style >
-.quiz-card {
+/* .quiz-card {
   width: 60vw;
   margin: 0 auto;
   padding: 5%;
   color: #000000;
-}
+} */
 </style>
 
 <script>
