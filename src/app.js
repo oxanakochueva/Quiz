@@ -20,14 +20,19 @@ import App from './app.vue';
 // Init F7 Vue Plugin
 Framework7.use(Framework7Vue);
 
+// import store (vuex) from "./store";
+import store from "./store/store.js";
+
 
 // Init App
 new Vue({
   el: '#app',
   template: '<app/>',
+  store,
 
   // Register App Component
   components: {
     app: App,
-  }
+  },
+  render: h => h(App)
 });
